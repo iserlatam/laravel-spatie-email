@@ -1,0 +1,21 @@
+-- JAIME
+1. Crear un modelo Vehiculo
+2. Crear una migración al vehiculo. Los campos son libres
+3. Crear recurso y colección (Resource & Collection) para este modelo
+4. Asociar ruta /vehiculo para el controlador creador
+5. Crear rutas index & show, basado en la estructura Route::apiResource('path')->only(['method',...])
+6. Capturar excepciones
+
+-- ALAN
+
+
+
+
+Notas para Roles
+
+- IMPORTANTE: organización y esquemas iniciales.
+- CORS: configurar Cors para evitar bloqueos HTTP (POST, PUT, DELETE)
+- ORGANIZACION DE RUTAS: routes/api.php -> organizar por roles
+- INICIALIZACIÓN:
+ -- Debemos migrar la tabla permissions antes de proceder <- Spatie resources
+ -- Debemos crear una migración para permisos y otra para roles
